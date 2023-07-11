@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 33.33%;
+  background-color: hsl(229, 100%, 56%);;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #008cff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+  background-color:hsl(0, 0%, 100%);
+  text-align: center;
+  justify-content: center;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+h1 {
+  color: #ffffff;
+  text-align: right;
+  margin: 80px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+.subsection {
+  margin-left: 20px;
+}
+
+.subsection-title {
+  font-weight: bold;
+}
